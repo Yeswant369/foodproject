@@ -27,7 +27,8 @@ const staples = [
   {id:"d3",name:"Paneer",cals:265,pro:18.5,carbs:1.2},
   {id:"v1",name:"Potato",cals:77,pro:2,carbs:17},
   {id:"v2",name:"Spinach",cals:23,pro:2.9,carbs:3.6},
-  {id:"n1",name:"Peanuts",cals:567,pro:25.8,carbs:16}
+  {id:"n1",name:"Peanuts",cals:567,pro:25.8,carbs:16},
+  {id:"n1",name:"radish",cals:600,pro:2.5,carbs:1000}
 ];
 
 function toastMsg(msg){
@@ -112,4 +113,5 @@ startBtn.addEventListener("click",()=>{
   cartBar.classList.remove("hidden");
   renderGrid();
 });
+
 
